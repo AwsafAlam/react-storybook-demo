@@ -3,6 +3,14 @@ Demo of react storybook for UI component testing
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# storybook
+
+- Add storybook with `npm storybook` command or you can all it globally also
+- This wil install all the necessary dependencies. I had some issues with npm install so I had to run `npm i   separately.
+- Once that is done, a `.storybook` folder will be created with the config file
+- `src/storybook` ill have all the react-js code for ui tsting. you have to import components separately to build out the entire storybook.
+- finally run npm run storybook and it will start running on port 9090 😀 😎 
+
 ## Available Scripts
 
 In the project directory, you can run:
